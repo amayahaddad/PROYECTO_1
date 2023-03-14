@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #f4fbfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10vw; 
+}
+
+header img{
+    width: 300px;
+}
+
+header a{
+    color: #132622;
+    text-decoration: none;
+    font-size: 20 px;
+    font-weight: 600;
+    
+}
+header a:hover{
+    display: flex;
+    color: #407867;
+    text-decoration-line: underline;
+
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav img{
+    width: 40px;
+    display: flex;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+header button{
+display: none;
+}
+
+.hero{
+    display: flex;
+    max-width: 100%;
+    height: 75vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./Assets/images/depression-3015577_1920.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+.hero .wrap .box{
+    flex-basis: 50%;
+    color: white;
+    text-align: right;
+    align-self: center;
+}
+
+.hero .wrap .box span{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 200;
+   
+}
+
+.hero .wrap .box h1{
+    font-size: 24px;
+    line-height: .9;
+    padding-bottom: 10px;
+    padding-top: 20px;
+   
+}
+
+.hero .wrap .box p{
+    font-size: 14px;
+    line-height: 1.2;
+   
+}
+
+.hero .wrap .box .sub{
+    display: flex;
+    margin-top: 30px;
+    flex-flow: row wrap;
+   
+}
+
+.cards{
+    height: 100vh;
+    background-color:#EFEFEF;
+    padding: 3em 5em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+article{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.504);
+    padding: 1em 1.5em;
+}
+
+.filled-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.outline-btn{
+    background-color: white;
+    color: blue;
+    border: 3px solid blue;
+    padding: 5px 8px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.header{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.header h3{
+    margin-top: 10px;
+
+}
+
+.features div{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+@media (max-width: 1300px) {
+    /* Break point */
+    nav{
+        display: none;
+    }
+
+    header button{
+        display:block;
+    }
+    
+}
+
+@media (max-width:700px){
+    .container{
+    grid-template-columns: 1fr;}
+}
+
+
+
+
+
+/* .hero h2{
+    text-align: right;
+    padding-right: 5%;
+    color: white;
+    text-decoration-style: wavy;
+    font-size: 500 px;
+    font-weight: 700;
+} */
+
+
