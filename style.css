@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* -------------------------------- HEADER --------------------------------  */
 header{
     background-color: #f4fbfc;
     display: flex;
@@ -53,6 +53,8 @@ height: 20px;
 width: 20px
 }
 
+
+/* -------------------------------- JUMBOTRON --------------------------------  */
 .hero{
     display: flex;
     max-width: 100%;
@@ -125,6 +127,8 @@ width: 20px
     color: white;
 }
 
+/* -------------------------------- CATALOGO --------------------------------  */
+
 
 .cards{
     height: 90vh;
@@ -170,8 +174,8 @@ article{
   }
 
 .features button img{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     padding: 10px 10px 10px 10px;
 } 
 
@@ -190,11 +194,11 @@ article{
     color: #132622;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-
 }
 
+/* -------------------------------- PREGUNTAS FRECUENTES --------------------------------  */
 .consultasFrecuentes{
     height: 80vh;
     background-color:#fff;
@@ -219,6 +223,9 @@ article{
     padding-bottom: 10px;
     padding-top: 20px;
 }
+
+
+/* -------------------------------- PIE DE PAGINA/FOOTER --------------------------------  */
 
 .piePagina{
     width: 100%;
@@ -288,6 +295,8 @@ article{
 }
 
 
+/* -------------------------------- RESPONSIVE --------------------------------  */
+
 @media (max-width: 1300px) {
     /* Break point */
     .menu nav{
@@ -316,7 +325,6 @@ article{
     }
 }
 
-
 @media screen and (max-width:700px){
     .piePagina .grupo1{
     width: 90%;
@@ -326,17 +334,5 @@ article{
     align-items: center;
     }
 }
-
-
-
-
-/* .hero h2{
-    text-align: right;
-    padding-right: 5%;
-    color: white;
-    text-decoration-style: wavy;
-    font-size: 500 px;
-    font-weight: 700;
-} */
 
 
