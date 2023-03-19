@@ -4,12 +4,11 @@ Psired: Redes de apoyo psicológico
 
 # ¿Que es Psired?
 Psired es un proyecto propio que nació en plena pandemia, donde junto a dos psicólogas nos planteamos temas latentes de salud mental 
-que afectaba al país.  Esto debido a  que existe un gran vacío de información en la población sobre donde pueden atenderse 
-psicológicamente,  68% de las personas en nuestro país no saben donde acudir si tienen un problema psicológico. También a esto 
+que afectaba al país.  Esto debido a  que existe un gran vacío de información en la población sobre donde pueden atenderse psicológicamente,  68% de las personas en nuestro país no saben donde acudir si tienen un problema psicológico. También a esto 
 se le suma que no solo no saben donde acudir, tampoco saben como acceder a redes de apoyo psicológico de calidad.  
 
 # Descripción Básica
-Para el desarrollo de está página web se utilizo HTML y CSS, incluyendo herramientas responsive como Media Query, Flex y Grid
+Para el desarrollo de está página web se utilizo HTML y CSS, incluyendo herramientas responsive como Media Query, Flex y Grid.
 
 # Secciones
   - <b>Header:</b> Incuye logo y menu responsive que incluye: Inicio, Servicios, Inscripción, Blog y Contacto
